@@ -5,6 +5,7 @@ The website isnt good it terms of looks but does fulfill most of the basic funct
 
 The base structure was used from ecommerce repo of respectable youtuber Edroh. 
 from root do this:
+
 terminal 1:
   cd server
   npm start
