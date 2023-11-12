@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family-Cinzel&family=Fauna+One&display=swap");
+.footer {
+  padding: 40px 0;
+  margin: 0;
+  background-color: #272935;
+  font-family: "Fauna One";
+  color: #f8f8f2;
+}
+/* 
+#181920
+#272935
+#f8f8f2 
+*/
+.inner_footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: clamp(20px, 30px, 40px);
+}
+.description {
+  width: clamp(20%, 30%, 40%);
+}
+
+.h3 {
+  font-weight: bold; 
+}
+
+.inner_footer > p {
+  margin-bottom: 30px;
+}
+
+ 

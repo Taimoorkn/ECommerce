@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family-Cinzel&family=Fauna+One&display=swap");
+.container {
+  font-family: "Fauna One";
+  box-shadow: 0 0 20px rgba(18, 52, 224, 0.5);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  color: #181920;
+  border: 1px solid #cccccc5c;
+  font-size: clamp(10px, 1.5vw, 16px);
+}
+
+.input {
+  display: none;
+}
+
+.input:checked + #label {
+  background: #272935;
+}
+
+.input#tab1:checked ~ .line {
+  left: 0;
+}
+
+.input#tab2:checked ~ .line {
+  left: 25%;
+}
+
+.input#tab3:checked ~ .line {
+  left: 50%;
+}
+
+.input#tab4:checked ~ .line {
+  left: 75%;
+}
+
+@media screen and (min-width: 1024px) {
+  /* #label {
+    font-size: 16px;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  /* #label {
+    font-size: 12px;
+  } */
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* #label {
+    font-size: 10px;
+  } */
+  .container {
+    width: 90%;
+  }
+}
+#label {
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: center; 
+  height: 2.25rem;
+  line-height: 2.25rem;
+  width: 25%;
+  text-align: center;
+  background: #181920;
+  color: #f8f8f2;
+  position: relative;
+  transition: 0.25s;
+  background: ease;
+  cursor: pointer;
+}
+
+#label::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  display: block;
+  background: #ccc;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  transition: 0.25s ease;
+}
+
+#label:hover::after {
+  opacity: 1;
+}
+
+.line {
+  position: absolute;
+  border-radius: 15px;
+  height: 2px;
+  background: #1e88e5;
+  width: 25%;
+  top: 34px;
+  left: 0;
+  transition: 0.25s ease;
+}

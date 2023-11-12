@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family_Cinzel&family=Fauna+One&display=swap");
+
+.item_details_container {
+  width: 80%;
+  margin: 80px auto;
+  font-family: "Fauna One";  color: #f8f8f2;
+}
+
+.item_details_content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+.item_details_images {
+  flex: 1 1 40%;
+  margin-bottom: 40px;
+}
+
+.item_details_images img {
+  padding-top: 50px;
+  width: 100%; 
+  object-fit: contain;
+}
+img{
+  border-radius: 15px;
+  
+}
+.item_details_actions {
+  flex: 1 1 50%;
+  margin-bottom: 40px;
+}
+
+.item_details_info {
+  margin: 65px 0 25px 0;
+}
+
+.item_details_info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.item_details_info p {
+  font-size: 18px;
+}
+
+.item_details_quantity {
+  display: flex;
+  align-items: center;
+  min-width: 50px;
+}
+
+.quantity_control {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #ccc;
+  margin-right: 20px;
+  padding: 2px 5px;
+}
+ 
+.item_details_wishlist {
+  margin-top: 20px;
+}
+
+.item_details_wishlist div {
+  display: flex;
+}
+
+.item_details_wishlist p {
+  margin-left: 5px;
+}
+
+.item_details_information {
+  margin: 20px 0;
+}
+
+.information_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.related_items {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.h3 {
+  font-weight: bold;
+}
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.5%;
+  justify-content: space-between;
+}
+/* Add other necessary styles for your component as needed */

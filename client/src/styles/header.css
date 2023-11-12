@@ -1,0 +1,57 @@
+.header {
+  background-color: #414558;
+  width: 100%;
+  height: 30px;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  font-size: small;
+}
+
+.greetings {
+  display: flex;
+  justify-content: end;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.p {
+  margin-right: 10px;
+  color: #d6d7db;
+}
+.logout_btn {
+  margin-right: 14%;
+  width: 100px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #414558;
+  color: #ff7abf;
+  border: 1px solid #ff7abf;
+  transition: background-color 400ms ease-out, color 400ms ease-out,
+    border 400ms ease-out;
+}
+
+.logout_btn:hover {
+  background-color: #ff7abf;
+  color: black;
+  border: 1px solid black;
+}
+
+.account {
+  padding-right: 14%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  justify-items: center;
+  align-items: center;
+}
+
+.link {
+  color: #d6d7db;
+  text-decoration: inherit;
+}
+ 
