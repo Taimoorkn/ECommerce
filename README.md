@@ -4,6 +4,17 @@ Simple E-Commerce site built with reactjs, redux-toolkil, material-ui, strapi, s
 The website isnt good it terms of looks but does fulfill most of the basic functionalities. 
 
 The base structure was used from ecommerce repo of respectable youtuber Edroh. 
+from root do this:
+terminal 1:
+  cd server
+  npm start
+
+terminal 2:
+  cd client
+  npm run start
+
+
+
 ![main](https://github.com/Taimoorkn/ECommerce/assets/61422602/851280b9-d0f8-450d-804e-117d8f265007)
 ![zuhire_ali](https://github.com/Taimoorkn/ECommerce/assets/61422602/de4683df-3ce7-42c4-a5b6-74f82ead38c0)
 ![login](https://github.com/Taimoorkn/ECommerce/assets/61422602/55d9bfd9-53b4-4cd5-9f49-a3936428ba47)
