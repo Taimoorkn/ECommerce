@@ -18,6 +18,7 @@ const Subscribe = () => {
           placeholder="Enter email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
+          id="email"
         />
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
         <p className="btn_text">Subscribe</p>

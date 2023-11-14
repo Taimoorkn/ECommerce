@@ -1,13 +1,11 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import {
-  setCartEmpty
-} from "../../state";
+import { setCartEmpty } from "../../state";
 const LogOut = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  dispatch(setCartEmpty())
+  dispatch(setCartEmpty());
 
   useEffect(() => {
     localStorage.setItem("user", "");

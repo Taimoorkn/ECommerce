@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { useFormik } from "formik";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { storeUser } from "./Protector";
 import { logInSchema } from "../../components/userSchema";
 import { useDispatch, useSelector } from "react-redux";
@@ -33,7 +33,7 @@ const LogIn = () => {
           toast.success("Logged in successfully!", {
             hideProgressBar: true,
           });
-          if (loginPath == "User") {
+          if (loginPath === "User") {
             navigate("/user");
           } else if (loginPath === "Checkout") {
             navigate("/checkout");
@@ -51,8 +51,7 @@ const LogIn = () => {
   const {
     values,
     errors,
-    touched,
-    isSubmitting,
+    touched, 
     handleBlur,
     handleChange,
     handleSubmit,

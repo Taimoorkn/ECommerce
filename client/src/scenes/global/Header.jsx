@@ -1,12 +1,9 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { PersonOutline } from "@mui/icons-material";
-import { setIsCartOpen, setSearch } from "../../state";
 import "../../styles/header.css";
 const Header = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const user = useSelector((state) => state.cart.userId); 
+  const user = useSelector((state) => state.cart.userId);
 
   return (
     <header className="header">
@@ -20,7 +17,6 @@ const Header = () => {
       ) : (
         <div className="account">
           <Link className="link" to="/login">
-
             Sign in / Guest
           </Link>
           <Link className="link" to="/signup">

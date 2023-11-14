@@ -146,7 +146,7 @@ const ShoppingList = () => {
               <select
                 value={sortBy}
                 onChange={handleSortChange}
-                class="select_filter"
+                className="select_filter"
               >
                 <option value="default">Default</option>
                 <option value="ascending">Alphabetical (A-Z)</option>

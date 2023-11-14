@@ -6,7 +6,7 @@ import { addToCart } from "../state";
 import { useNavigate } from "react-router-dom";
 import "../styles/item.css";
 
-const Item = ({ item }) => {
+const Item = ({ item }) => { 
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const count = 1;
