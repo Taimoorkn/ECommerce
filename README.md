@@ -24,5 +24,4 @@ terminal 2:
 ![userloggedin](https://github.com/Taimoorkn/ECommerce/assets/61422602/24a17d0c-4f5f-4b4c-ab07-7a63fd4005cf)
 ![checkout](https://github.com/Taimoorkn/ECommerce/assets/61422602/f0e99954-2579-4ac2-bb4a-5481e4a33eca)
 ![formik+yup](https://github.com/Taimoorkn/ECommerce/assets/61422602/47c2ada5-6cbe-4165-879b-d717f98ea208)
-![Userdetails](https://github.com/Taimoorkn/ECommerce/assets/61422602/ba042e96-5c58-4e3e-93d8-26ea1ab6f93d)
 
